@@ -1,3 +1,5 @@
+//doesnt work for big numbers
+
 function calculate(route) {
     let operations = ['$', '*', '+', '-'];
     let splitedRoute = []
