@@ -33,9 +33,7 @@ function parseIntt(string) {
     }
 
     let number = [];
-    let parts = string.split(/[- ]/).filter(function (word) {
-        return word;
-    })
+    let parts = string.split(/[- ]/)
 
     parts = parts.filter(item => item !== 'and')
 
