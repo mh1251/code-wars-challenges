@@ -1,9 +1,9 @@
 function connectFour(board) {
     function winnerIs(player) {
-        let row = board[0].length;
-        let column = board.length;
-        for (let i = 0; i < column; i++) {
-            for (let j = 0; j < row; j++) {
+        let column = board[0].length;
+        let row = board.length;
+        for (let i = 0; i < row; i++) {
+            for (let j = 0; j < column; j++) {
                 if ([0, 1, 2, 3].every(function (k) {
                     return board[i][j + k] == player;  // checks rows
                 }) || [0, 1, 2, 3].every(function (k) {
