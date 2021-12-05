@@ -60,4 +60,4 @@ function solveExpression(exp) {
 
 
 
-console.log(solveExpression(''))
+console.log(solveExpression('1?+?=14'))
