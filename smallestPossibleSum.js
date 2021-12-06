@@ -1,3 +1,5 @@
+// If one element in the array is larger than another one, change it to the difference between the two.
+
 function solution(numbers) {
     while (true) {
         numbers.sort((a, b) => a - b);
