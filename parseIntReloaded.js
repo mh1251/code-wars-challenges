@@ -47,7 +47,7 @@ function parseIntt(string) {
 
     for (let i = 0; i < number.length; i++) {
 
-        if (Object.values(hundreds).indexOf(number[i]) > -1) {
+        if (Object.values(hundreds).indexOf(number[i]) > -1  && i!=0) {
             number[i - 1] = number[i - 1] * number[i];
             number.splice(i, 1);
             console.log('number', number)
