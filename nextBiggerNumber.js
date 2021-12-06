@@ -63,7 +63,7 @@ function nextBigger(n){
     numberArray[smallerAdjacentFromLeft] = numberArray[smallestIndex];
     numberArray[smallestIndex] = swappable;
     
-    // Rearange digits in descending order on right of smallest digit
+    // Rearange digits in ascending order on right of smallest digit
     // 534976
     // 53
     return Number(numberArray.slice(0, smallerAdjacentFromLeft + 1)
