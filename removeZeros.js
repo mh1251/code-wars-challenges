@@ -15,7 +15,7 @@ You are NOT allowed to use any temporary arrays or objects. You are also not all
 
 function removeZeros(array) {
     for (let i = 0; i < array.length; i++) {
-        if (array[i - 1] == 0 && array[i] != 0 || arr[i]===false) {
+        if (array[i - 1] == 0 && array[i] != 0 || array[i]===false) {
             while (array[i - 1] == 0) {
                 var temp = array[i];
                 array[i] = array[i - 1];
