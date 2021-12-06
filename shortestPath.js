@@ -51,6 +51,13 @@ let edges = [
       graph[a].push(b);
       graph[b].push(a);
     }
+      
+//   buildGraph:   
+//   w: [ 'x', 'v' ],
+//   x: [ 'w', 'y' ],
+//   y: [ 'x', 'z' ],
+//   z: [ 'y', 'v' ],
+//   v: [ 'z', 'w' ]
     
     return graph;
   };
