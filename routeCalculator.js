@@ -1,4 +1,9 @@
 //doesnt work for big numbers
+//calculate('5+5+5+5') => '20'
+
+//calculate('1000$2.5$5+5-5+6$6') =>'81'
+
+//calculate('10-9p')   =>  '400: Bad request'
 
 function calculate(route) {
     let operations = ['$', '*', '+', '-'];
